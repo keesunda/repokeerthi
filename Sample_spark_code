@@ -1,1 +1,1 @@
-spark-shell --verbose --master-yarn
+spark-shell --verbose --master yarn-client --driver-memory 512m --num-executors 1 --executor-cores 2 --executor-memory 512m
